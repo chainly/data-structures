@@ -57,6 +57,7 @@ a b c b c x g b c b c y
 # generic action
 a b c b c x g b c b c y
     b c b c y
+```
 
 # KMP
 ```
@@ -71,7 +72,6 @@ b: 1 2 3 6
     4 ? 3      234=123 ? (5?6):(step2)
     5 ? 6      ...
 3: ...
-
 ==> find max equal length part of （
   b c b c 's tail
   b c b c 's prefix
@@ -79,6 +79,7 @@ b: 1 2 3 6
   b c b c x
       b c b c y
  as we use it repeat, get it firstly (which is done by `get_next`)
+ 
 ```
 
 ## mv `to` to match `from`
