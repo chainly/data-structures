@@ -72,8 +72,7 @@ b: 1 2 3 6
     5 ? 6      ...
 3: ...
 
-==> 
-# find max equal length part of （
+==> find max equal length part of （
   b c b c 's tail
   b c b c 's prefix
 ）== find max equal length part of to[:i]
