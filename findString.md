@@ -59,6 +59,18 @@ a b c b c x g b c b c y
     b c b c y
 
 # KMP
+```
+a: x . x y   ? ? ?  
+b: x . x z   ? ?
+next & repeat:
+   a + 1
+   b
+==>
+b: (x . x)
+Y: move to x
+N: a + 1
+
+```
 # find max equal length part of （
   b c b c 's tail
   b c b c 's prefix
